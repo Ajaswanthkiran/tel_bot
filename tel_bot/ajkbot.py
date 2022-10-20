@@ -6,7 +6,7 @@ from telegram.ext import CommandHandler
 
 from yt import youtube_search_location
 
-updater=Updater(token='5439158053:AAFjCQVZkSyajpCWfoiwML3N0_n88j7NfVs',use_context=True)
+updater=Updater(token='',use_context=True)
 dispatcher=updater.dispatcher
 
 def start(update,context):
